@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Classic Beef Burger - Byte & Bite Bistro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Byte & Bite Bistro Logo" class="logo" />
+    <h1>Classic Beef Burger</h1>
+    <p>Flame-grilled and loaded with flavor</p>
+  </header>
+
+  <main class="meal-detail">
+    <img src="images/burg.jpeg" alt="Classic Beef Burger" class="meal-img-large" />
+
+    <div class="meal-info">
+      <h2>$10.99</h2>
+      <p><strong>Serving size:</strong> Single patty with fries</p>
+      <p>This burger is a crowd-pleaser: 100% flame-grilled beef patty, cheddar cheese, lettuce, tomato, onions, and our signature sauce—all stacked in a toasted brioche bun.</p>
+
+      <h3>Extras:</h3>
+      <ul>
+        <li>Extra cheese</li>
+        <li>Crispy bacon</li>
+        <li>Fried egg</li>
+        <li>Spicy jalapeños</li>
+        <li>Double patty upgrade</li>
+      </ul>
+
+      <form action="thankyou.html" method="GET" class="order-form">
+        <label for="notes">Special instructions:</label><br />
+        <textarea id="notes" name="notes" rows="4" cols="40" placeholder="No onions? Extra sauce? Let us know..."></textarea><br /><br />
+        <button type="submit" class="order-btn">
+          <i class="fas fa-check-circle"></i> Place Order
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Byte & Bite Bistro. All rights reserved.</p>
+  </footer>
+</body>
+</html>

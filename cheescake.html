@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Strawberry Cheesecake - Byte & Bite Bistro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Byte & Bite Bistro Logo" class="logo" />
+    <h1>Strawberry Cheesecake</h1>
+    <p>Silky smooth cheesecake topped with sweet strawberries</p>
+  </header>
+
+  <main class="meal-detail">
+    <img src="images/cheesecake.jpeg" alt="Strawberry Cheesecake" class="meal-img-large" />
+
+    <div class="meal-info">
+      <h2>R60.00</h2>
+      <p><strong>Serving size:</strong> Single slice</p>
+      <p>A decadent cheesecake with a buttery graham cracker crust, creamy filling, and topped with fresh strawberries and strawberry sauce.</p>
+
+      <h3>Extras:</h3>
+      <ul>
+        <li>Chocolate drizzle</li>
+        <li>Whipped cream</li>
+        <li>Extra strawberries</li>
+        <li>Caramel topping</li>
+        <li>Nuts on top</li>
+      </ul>
+
+      <form action="thankyou.html" method="GET" class="order-form">
+        <label for="notes">Special instructions:</label><br />
+        <textarea id="notes" name="notes" rows="4" cols="40" placeholder="More strawberries? No whipped cream?"></textarea><br /><br />
+        <button type="submit" class="order-btn">
+          <i class="fas fa-check-circle"></i> Place Order
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Byte & Bite Bistro. All rights reserved.</p>
+  </footer>
+</body>
+</html>

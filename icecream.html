@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ice Cream Sundae - Byte & Bite Bistro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Byte & Bite Bistro Logo" class="logo" />
+    <h1>Ice Cream Sundae</h1>
+    <p>Cool, sweet, and decadent dessert with all the toppings</p>
+  </header>
+
+  <main class="meal-detail">
+    <img src="icecream.jpg" alt="Ice Cream Sundae" class="meal-img-large" />
+
+    <div class="meal-info">
+      <h2>R30.00</h2>
+      <p><strong>Serving size:</strong> Single sundae</p>
+      <p>This dessert features a scoop of creamy vanilla ice cream, topped with rich chocolate sauce, sprinkles, whipped cream, and a cherry on top.</p>
+
+      <h3>Extras:</h3>
+      <ul>
+        <li>Chocolate syrup</li>
+        <li>Sprinkles</li>
+        <li>Chopped nuts</li>
+        <li>Extra whipped cream</li>
+        <li>Fruit toppings</li>
+      </ul>
+
+      <form action="thankyou.html" method="GET" class="order-form">
+        <label for="notes">Special instructions:</label><br />
+        <textarea id="notes" name="notes" rows="4" cols="40" placeholder="Want it extra cold or no cherry?"></textarea><br /><br />
+        <button type="submit" class="order-btn">
+          <i class="fas fa-check-circle"></i> Place Order
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Byte & Bite Bistro. All rights reserved.</p>
+  </footer>
+</body>
+</html>

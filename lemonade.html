@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fresh Lemonade - Byte & Bite Bistro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Byte & Bite Bistro Logo" class="logo" />
+    <h1>Fresh Lemonade</h1>
+    <p>Perfectly tart and sweet, made with fresh lemons</p>
+  </header>
+
+  <main class="meal-detail">
+    <img src="images/lemon.jpeg" alt="Fresh Lemonade" class="meal-img-large" />
+
+    <div class="meal-info">
+      <h2>$R50.00</h2>
+      <p><strong>Serving size:</strong> 500ml</p>
+      <p>This refreshing lemonade is squeezed fresh every morning with zesty lemons, balanced with the perfect amount of sweetness. The ultimate thirst quencher on a hot day!</p>
+
+      <h3>Extras:</h3>
+      <ul>
+        <li>Mint leaves</li>
+        <li>Extra sugar</li>
+        <li>Ice cubes</li>
+        <li>Berry infusion</li>
+        <li>Lemon slice garnish</li>
+      </ul>
+
+      <form action="thankyou.html" method="GET" class="order-form">
+        <label for="notes">Special instructions:</label><br />
+        <textarea id="notes" name="notes" rows="4" cols="40" placeholder="Less sugar? More ice? Let us know..."></textarea><br /><br />
+        <button type="submit" class="order-btn">
+          <i class="fas fa-check-circle"></i> Place Order
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Byte & Bite Bistro. All rights reserved.</p>
+  </footer>
+</body>
+</html>
